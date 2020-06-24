@@ -1,0 +1,146 @@
+.loginPage .container {
+   position: absolute;
+   top : 50%;
+   left : 50%;
+   transform: translate(-50% , -50%);
+   
+}
+
+.usrnameText:focus{
+    outline: thin;
+    border: 1px solid #1e88e5;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+}
+
+.usrnameText:hover{
+    outline: thick;
+    border: 2px solid #1e88e5;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+}
+
+.loginBtn{
+    width : 20%;
+}
+.loginBtn:hover{
+    width : 30%;
+    height: 46px;
+    transition: 0.8s all;
+}
+
+.headerPage .container header{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+.welcomePage .container {
+    position: absolute;
+    top : 50%;
+    left : 50%;
+    transform: translate(-50% , -50%);
+    
+ }
+
+
+ .footerPage .container footer{
+    position: absolute;
+    margin-left: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+
+.errorPage .container {
+    position: absolute;
+    top : 50%;
+    left : 50%;
+    transform: translate(-50% , -50%);
+    
+ }
+
+ .logoutPage .container {
+    position: absolute;
+    top : 20%;
+    left : 50%;
+    transform: translate(-50% , -50%);
+    
+ }
+
+ .todos .container{
+    position: absolute;
+    top : 50%;
+    left : 50%;
+    transform: translate(-50% , -50%);
+    
+ }
+
+ table tbody tr:last-of-type{
+     border-bottom:  1px solid gray;
+ }
+
+ .checkTik{
+      position: absolute;
+      top : 50%;
+      right : 0px;
+      transform: translate(-50% , -50%);
+ }
+.updateButton{
+    z-index: 1;
+}
+
+.formPane{
+    z-index: 2;
+    width : 300px;    
+}
+
+.dropdown-menu{
+    border-top: 10px solid darkslategray;
+    margin: 10px;
+    box-shadow: 1px 2px 40px black;  
+    border-radius: 20px;  
+}
+
+.form{
+    margin : 10px;
+}
+/* .my-custom-scrollbar {
+    position: relative;
+    height: 200px;
+    overflow: auto;
+    z-index: 2;
+    }
+ .table-wrapper-scroll-y {
+    display: block;
+    } */
+
+.scrolable{
+    height : 400px;
+    overflow: auto;
+    
+}
+
+
+.todoaddpage .container {
+    position: absolute;
+    top : 50%;
+    left : 50%;
+    transform: translate(-50% , -50%);
+    margin : 10px;
+    padding-top: 10px;
+    
+}
+
+.todoaddpage h3 {
+    position: absolute;
+    top : 20%;
+    left : 50%;
+    transform: translate(-50% , -50%);
+    padding: 20px;
+    margin-top: 10px;
+    
+}

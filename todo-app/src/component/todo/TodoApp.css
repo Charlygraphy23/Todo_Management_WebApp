@@ -1,0 +1,101 @@
+.loginForm{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.h4{
+    position: absolute;    
+    top: 18%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    
+}
+.loginButton{
+    width : 130px;
+}
+
+.todosH4{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.tableContainer{
+    overflow: auto;
+    height : 200px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50% , -50%);
+}
+header{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    z-index: 1;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    bottom:0px;
+    z-index: 1;
+}
+
+.logoutPage .container{
+
+    position: absolute;    
+    top: 30%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.titleUpdatePage{
+    position: absolute;    
+    top: 20%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.updatePage .container .form{
+    position: absolute;
+    width : 70%;    
+    top: 60%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}   
+.updateButton{
+    width: 20%;
+    margin : 20px;
+}
+
+.addButton{
+    position: absolute;   
+    top: 70%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 90%; 
+}
+.addbtn{
+      position: absolute;
+      right: 0px;
+      margin-right: 10px; 
+}
+
+.formlbl{
+    margin : 10px
+}
+
+.addTodoPage .container .form{
+    position: absolute;
+    width : 70%;    
+    top: 60%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}  
